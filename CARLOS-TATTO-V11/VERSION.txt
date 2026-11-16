@@ -1,0 +1,11 @@
+CARLOS TATTO — EXPERIENCE V11
+Ruta principal: CARLOS-TATTO-V11/index.html
+Base: INK//FORM V10, con rediseño de marca, libre creación y ticket visual.
+Cambios V11:
+- Nombre nuevo CARLOS TATTO en la interfaz.
+- Lienzo libre con lápiz, goma, grosor, deshacer/rehacer, limpieza y descarga PNG.
+- Ticket con vista del boceto y fotos de referencia, actualizado en directo.
+- 96 fotogramas reconstituidos desde un montaje fotográfico sobre fondo transparente: sin círculo naranja plano.
+- Ajuste de anchura en móvil sin desplazamiento horizontal del documento.
+- Mantiene HTML semántico, responsive, formulario, menú desplegable y modo oscuro.
+NOTA: Vista de máquina fotográfica 2.5D, no modelo CAD físico.

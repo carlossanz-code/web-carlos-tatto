@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e8e2d8">
+  <meta name="description" content="CARLOS TATTO — experiencia inmersiva de un estudio de tatuajes ficticio. Del boceto a la piel.">
+  <title>CARLOS TATTO — STUDIO EXPERIENCE V11</title>
+  <link rel="preload" as="image" href="assets/img/hero/hero-machine.webp">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <!-- [01-HEADER] Cabecera / navegación semántica -->
+  <header class="site-header" id="inicio">
+    <a class="brand" href="#hero" aria-label="CARLOS TATTO: ir al inicio">CARLOS<span class="brand-divider">/</span>TATTOO<small>TATTOO STUDIO / CREATIVE LAB</small></a>
+    <nav class="primary-nav" aria-label="Navegación principal">
+      <button id="menuToggle" class="menu-toggle" type="button" aria-controls="navLinks" aria-expanded="false"><span id="menuText">MENÚ</span><span class="menu-lines" aria-hidden="true"><i></i><i></i></span></button>
+      <div id="navLinks" class="nav-links">
+        <a href="#proceso">Proceso</a><a href="#maquina">La máquina</a><a href="#estilos">Estilos</a><a href="#atelier">Atelier</a><a href="#galeria">Galería</a><a class="nav-contact" href="#contacto">Tu idea <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+    <!-- [EXTRA-A] Botón obligatorio del modo oscuro -->
+    <button id="themeToggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Activar modo oscuro"><span class="theme-icon" aria-hidden="true">◐</span><span id="themeText">DARK</span></button>
+  </header>
+  <div class="reading-progress" aria-hidden="true"><span id="progressBar"></span></div>
+  <aside class="experience-rail" aria-label="Capítulos de la experiencia">
+    <span class="rail-title">CARLOS TATTO — EXPERIENCE</span>
+    <a href="#hero" data-rail="hero" aria-label="Portada">01</a>
+    <a href="#ritual" data-rail="ritual" aria-label="Ritual">02</a>
+    <a href="#proceso" data-rail="proceso" aria-label="Proceso">03</a>
+    <a href="#maquina" data-rail="maquina" aria-label="Máquina">04</a>
+    <a href="#atelier" data-rail="atelier" aria-label="Laboratorio de tinta">05</a><a href="#galeria" data-rail="galeria" aria-label="Galería">06</a>
+    <a href="#contacto" data-rail="contacto" aria-label="Contacto">07</a>
+    <span class="rail-ending">EXPLORE / 2026</span>
+  </aside>
+  <div class="v10-ambient-meter" aria-hidden="true"><span id="ambientMeterFill"></span></div>
+  <main id="contenido">
+    <!-- [02-HERO] TODO-CARLOS-01: Puedes cambiar el texto de .hero-intro -->
+    <section class="hero" id="hero" aria-labelledby="heroTitle">
+      <div class="hero-image" aria-hidden="true"></div><div class="hero-shade" aria-hidden="true"></div><div class="hero-trace" aria-hidden="true"></div>
+      <div class="hero-inner"><span class="hero-index" aria-hidden="true">CARLOS TATTO / EST. 2026</span>
+        <p class="overline hero-kicker">CARLOS TATTO <span class="accent-dot">✳</span> CREATIVE TATTOO STUDIO</p>
+        <h1 id="heroTitle">YOUR<br><em>BODY.</em><br>YOUR <em>STORY.</em></h1>
+        <div class="hero-bottom"><p class="hero-intro">Tu idea. Nuestra tinta.<br>Una pieza que se queda contigo.</p><a href="#proceso" class="round-link" aria-label="Descubre la experiencia"><span aria-hidden="true">↘</span></a></div>
+      </div>
+      <div class="hero-edge" aria-hidden="true"><span>01 / 08</span><span>DESLIZA PARA ENTRAR ↓</span></div>
+    </section>
+
+
+    <!-- [03-RITUAL] NUEVO V9: escena sticky cinematográfica; progresión por scroll -->
+    <section class="ritual" id="ritual" aria-labelledby="ritualTitle">
+      <div class="ritual-sticky">
+        <div class="ritual-ambience" aria-hidden="true"></div>
+        <div class="ritual-line ritual-line--left" aria-hidden="true"></div>
+        <div class="ritual-line ritual-line--right" aria-hidden="true"></div>
+        <div class="ritual-content">
+          <p class="overline ritual-eyebrow">00 / EL PRIMER TRAZO</p>
+          <p class="ritual-chapter" id="ritualChapter" aria-live="off">LA IDEA</p>
+          <h2 id="ritualTitle">EVERY MARK<br><em>BEGINS SOMEWHERE.</em></h2>
+          <p id="ritualDescription" class="ritual-description">Antes de tocar la piel, todo empieza en la imaginación.</p>
+          <p class="ritual-counter" aria-hidden="true"><span id="ritualCounter">01</span> <span>/</span> 03</p>
+        </div>
+        <div class="ritual-art" aria-hidden="true">
+          <svg viewBox="0 0 540 540" role="presentation" preserveAspectRatio="xMidYMid meet">
+            <circle class="ritual-orbit" cx="270" cy="270" r="193"/>
+            <circle class="ritual-orbit second" cx="270" cy="270" r="147"/>
+            <path class="ritual-path" id="ritualPath" d="M260 460 C204 394 169 336 186 264 C198 209 244 181 287 196 C340 215 342 270 313 309 C283 349 239 336 230 301 C222 269 248 239 278 243 C312 245 326 282 307 300 C284 321 265 294 275 283 M266 459 C287 406 356 388 387 315 C420 236 390 169 321 146 C255 120 182 165 149 228"/>
+            <path class="ritual-path secondary" id="ritualPathB" d="M262 455 C229 399 113 368 119 288 C121 227 166 203 188 199 M257 447 C299 405 366 413 410 357 M262 458 Q308 428 326 474 M259 456 Q207 430 176 467"/>
+            <circle class="ritual-core" cx="270" cy="270" r="13"/>
+          </svg>
+          <div class="ritual-art-label">DESIGN IS MEMORY / 001</div>
+        </div>
+        <div class="ritual-bottom" aria-hidden="true"><span>01 — IDEA</span><span>02 — TRAZO</span><span>03 — TINTA</span></div>
+      </div>
+    </section>
+
+    <!-- [04-PROCESO] Explicación visual de las fases -->
+    <section class="process section-pad" id="proceso" aria-labelledby="processTitle">
+      <div class="shell"><div class="eyebrow-row"><span>01 / EL PROCESO</span><span>DE IDEA A PIEL</span></div>
+        <div class="process-layout"><div class="process-heading reveal"><p class="overline">NO ES SOLO UN DIBUJO</p><h2 id="processTitle">THE ART OF<br><em>MAKING</em><br>A MARK.</h2><p>Una historia no necesita mil palabras. A veces necesita una sola línea.</p></div>
+          <div class="process-stage reveal" aria-hidden="true"><img src="assets/img/process/sketch.svg" class="process-layer process-layer--one" alt=""><img src="assets/img/process/linework.svg" class="process-layer process-layer--two" alt=""><img src="assets/img/process/shadow.svg" class="process-layer process-layer--three" alt=""><div class="stage-caption">SKETCH <span>→</span> SKIN / 001</div></div></div>
+        <div class="process-steps" aria-label="Fases del tatuaje"><article class="process-step reveal"><span>01</span><h3>Escuchamos.</h3><p>Tu idea, sin filtros.</p></article><article class="process-step reveal"><span>02</span><h3>Dibujamos.</h3><p>Del concepto al trazo.</p></article><article class="process-step reveal"><span>03</span><h3>Perfeccionamos.</h3><p>Proporción y carácter.</p></article><article class="process-step reveal"><span>04</span><h3>Lo llevamos a la piel.</h3><p>Con intención y precisión.</p></article></div>
+      </div>
+    </section>
+
+
+    <!-- [V10-INTERLUDE] Respiro cinematográfico entre proceso y máquina -->
+    <section class="interlude" aria-labelledby="interludeTitle">
+      <div class="interlude-shutter" aria-hidden="true"></div>
+      <div class="interlude-inner">
+        <p class="overline">THE ART IS IN THE DETAIL / 002</p>
+        <h2 id="interludeTitle"><span>EVERY</span> <em>DETAIL</em><br><span>MATTERS.</span></h2>
+        <p>Cuando todo encaja, empieza lo extraordinario.</p>
+      </div>
+      <div class="interlude-track" aria-hidden="true"><span>PRECISION — INTENTION — MOVEMENT — PRECISION — INTENTION — MOVEMENT — </span></div>
+    </section>
+
+    <!-- [05-MÁQUINA] NUEVO V9: CANVAS CON 96 FOTOGRAMAS LOCALES, UNO POR SCROLL -->
+    <section id="maquina" class="machine-scroll" aria-labelledby="machineTitle">
+      <div class="machine-sticky">
+        <div class="machine-background-type" aria-hidden="true">ENGINEERED<br>TO CREATE</div>
+        <div class="machine-copy">
+          <p class="overline machine-overline">02 / PRECISIÓN EN MOVIMIENTO</p>
+          <h2 id="machineTitle">PART BY PART.<br><em>PERFECTLY BUILT.</em></h2>
+          <p class="machine-lead">Cada componente tiene un lugar. Controla el montaje moviéndote por la página.</p>
+          <div class="machine-readout"><strong id="machineCount">00<span>/06</span></strong><span id="machineStatus" role="status" aria-live="polite">Desmontada. Desliza para construirla.</span></div>
+          <div class="machine-track" aria-hidden="true"><span id="machineTrackFill"></span></div>
+          <ol class="machine-steps"><li data-stage="0" class="is-active">Desmontada</li><li data-stage="1">Ensamblando</li><li data-stage="2">Lista</li><li data-stage="3">En marcha</li></ol>
+          <div class="machine-actions">
+             <button type="button" id="motionOverride" class="motion-button" aria-pressed="false">Movimiento: automático</button>
+             <button type="button" id="replayAssembly" class="motion-button motion-button--replay">Repetir montaje ↗</button>
+          </div>
+        </div>
+        <div class="machine-viewport" id="machineViewport" aria-label="Secuencia visual: la máquina de tatuar empieza desmontada y encaja seis piezas conforme avanzas con el scroll">
+          <div class="machine-halo" aria-hidden="true"></div>
+          <div class="machine-ruler" aria-hidden="true"><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span></div>
+          <div id="machineStage" class="machine-stage machine-stage-v9" aria-hidden="true">
+            <span class="machine-snap" id="machineSnap" aria-hidden="true"></span>
+            <canvas id="machineCanvas" class="machine-canvas" width="900" height="960" aria-hidden="true"></canvas>
+            <img class="machine-fallback" src="assets/img/machine/assembled-preview.png" alt="" width="680" height="860">
+            <div class="machine-led" id="machineLed"></div>
+            <div class="machine-ink" id="machineInk"></div>
+          </div>
+          <p class="machine-side-note">96 FRAMES / 06 COMPONENTS / 01 MACHINE</p>
+        </div>
+        <div class="machine-scroll-note" aria-hidden="true">SCROLL TO ASSEMBLE <span>↓</span></div>
+      </div>
+    </section>
+
+    <!-- [05-ESTILOS] Grid semántico y editable -->
+    <section id="estilos" class="styles section-pad" aria-labelledby="stylesTitle"><div class="shell"><div class="eyebrow-row"><span>03 / ESTILOS</span><span>NO TWO STORIES ALIKE</span></div><div class="styles-title reveal"><h2 id="stylesTitle">FIND YOUR<br><em>OWN LANGUAGE.</em></h2><p>Cuatro maneras de decir algo sin hablar.</p></div><div class="styles-grid"><article class="style-tile reveal"><span>01 / FINE LINE</span><h3>Delicado.</h3><p>Lo esencial, en cada línea.</p></article><article class="style-tile reveal"><span>02 / BLACKWORK</span><h3>Intenso.</h3><p>Contraste que no se olvida.</p></article><article class="style-tile reveal"><span>03 / REALISM</span><h3>Preciso.</h3><p>Detalles que cuentan historias.</p></article><article class="style-tile reveal"><span>04 / MINIMAL</span><h3>Honesto.</h3><p>Menos, pero con intención.</p></article></div></div></section>
+
+
+    <!-- ============================================================ -->
+    <!-- [V11-ATELIER] LABORATORIO INTERACTIVO: boceto -> tinta        -->
+    <!-- TODO-CARLOS-07: cambia uno de los textos de este apartado    -->
+    <!-- ============================================================ -->
+    <section id="atelier" class="atelier" aria-labelledby="atelierTitle">
+      <div class="atelier-intro shell reveal">
+        <p class="overline">04 / THE INK ATELIER</p>
+        <h2 id="atelierTitle">NOT JUST<br><em>A DESIGN.</em><br>A DECISION.</h2>
+        <p>Elige un diseño para inspirarte o cambia a lienzo libre. Tus dibujos y referencias aparecen automáticamente en el ticket.</p>
+      </div>
+      <div class="atelier-experience">
+        <div class="atelier-panel">
+          <div class="atelier-topline"><span>CARLOS TATTO · INTERACTIVE LAB</span><span id="atelierStageLabel">01 / BOCETO</span></div>
+          <div class="atelier-layout">
+            <div class="atelier-editor">
+              <p class="overline">TU LIENZO, TU DECISIÓN</p>
+              <h3>DRAWN<br><em>TO LAST.</em></h3>
+              <p>Crea tu propio boceto desde cero o explora tres propuestas. El resultado aparecerá al instante en tu ticket.</p>
+              <!-- [V11-CARLOS-ATELIER-01] Selector de modos. No borra los trazos. -->
+              <div class="sketch-modes" role="group" aria-label="Modo de diseño">
+                <button type="button" class="sketch-mode is-active" id="drawMode" aria-pressed="true">✎ DIBUJA TU IDEA</button>
+                <button type="button" class="sketch-mode" id="presetMode" aria-pressed="false">◈ EXPLORA DISEÑOS</button>
+              </div>
+              <!-- [V11-CARLOS-ATELIER-02] Panel de herramientas del lienzo libre -->
+              <div class="sketch-tools" id="sketchTools">
+                <div class="sketch-tools__row" role="group" aria-label="Herramientas de dibujo">
+                  <button type="button" class="sketch-tool is-active" id="brushTool" aria-pressed="true">Lápiz</button>
+                  <button type="button" class="sketch-tool" id="eraserTool" aria-pressed="false">Goma</button>
+                  <label class="sketch-size" for="brushSize">Grosor <output id="brushSizeText">4</output><input id="brushSize" type="range" min="2" max="24" value="4" step="1"></label>
+                </div>
+                <div class="sketch-tools__row sketch-tools__row--actions">
+                  <button type="button" id="undoSketch" class="sketch-icon-button" aria-label="Deshacer último trazo">↶ Deshacer</button>
+                  <button type="button" id="redoSketch" class="sketch-icon-button" aria-label="Rehacer último trazo">↷ Rehacer</button>
+                  <button type="button" id="clearSketch" class="sketch-icon-button">Limpiar</button>
+                  <button type="button" id="downloadSketch" class="sketch-icon-button sketch-icon-button--primary">Guardar PNG ↓</button>
+                </div>
+                <p class="sketch-tool-hint" id="sketchHint" role="status" aria-live="polite">Dibuja con ratón, dedo o lápiz. Se refleja en tu ticket automáticamente.</p>
+              </div>
+              <div id="presetTools" class="preset-tools" hidden>
+              <div class="atelier-choices" role="group" aria-label="Elegir motivo">
+                <button class="atelier-choice is-selected" type="button" data-art="botanical" aria-pressed="true">01 <span>BOTÁNICA</span></button>
+                <button class="atelier-choice" type="button" data-art="orbit" aria-pressed="false">02 <span>ÓRBITA</span></button>
+                <button class="atelier-choice" type="button" data-art="serpent" aria-pressed="false">03 <span>SERPENTE</span></button>
+              </div>
+              <label class="atelier-range-label" for="inkReveal"><span>DE BOCETO A TINTA</span><output for="inkReveal" id="inkPercent">45%</output></label>
+              <input id="inkReveal" class="atelier-range" type="range" min="0" max="100" value="45" step="1" aria-describedby="atelierInstructions">
+              <p class="atelier-instructions" id="atelierInstructions">Desliza el control o utiliza las flechas del teclado.</p>
+              </div>
+              <a class="atelier-to-form" href="#contacto">¿Y SI EL SIGUIENTE ES TUYO? <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="atelier-canvas" id="atelierCanvas" aria-label="Comparador de diseño de tatuaje: a la izquierda el boceto, a la derecha la tinta">
+              <div class="atelier-grain" aria-hidden="true"></div>
+              <div class="atelier-canvas-label atelier-canvas-label--left">TINTA / FINAL</div>
+              <div class="atelier-canvas-label atelier-canvas-label--right">ESTUDIO / BOCETO</div>
+              <div class="atelier-artwork atelier-artwork--base" aria-hidden="true"><img id="atelierSketch" src="assets/img/atelier/botanical-sketch.svg" alt="" loading="lazy"></div>
+              <div class="atelier-artwork atelier-artwork--ink" id="atelierInkLayer" aria-hidden="true"><img id="atelierInk" src="assets/img/atelier/botanical-ink.svg" alt="" loading="lazy"></div>
+              <!-- [V11-CARLOS-ATELIER-03] Lienzo real: la capa de dibujo no depende de imágenes fijas. -->
+              <div class="sketch-pad-shell" id="sketchPadShell">
+                <canvas id="sketchPad" class="sketch-pad" aria-label="Lienzo libre para dibujar tu idea con ratón o pantalla táctil" aria-describedby="sketchInstructions"></canvas>
+                <p id="sketchInstructions" class="sketch-instructions">EMPIEZA A DIBUJAR AQUÍ <small>Tu diseño, sin plantillas.</small></p>
+              </div>
+              <div class="atelier-divider" id="atelierDivider" aria-hidden="true"><span>↔</span></div>
+              <div class="atelier-canvas-bottom"><span>CARLOS TATTO / DESIGN Nº 001</span><span>HAND-DRAWN FEEL / DIGITAL PREVIEW</span></div>
+            </div>
+          </div>
+          <div class="atelier-footerline"><span>TU BOCETO / TRES CONCEPTOS</span><span>YOUR STORY / YOUR MARK</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- [06-GALERÍA] Coverflow 3D, imágenes locales de reserva -->
+    <section id="galeria" class="gallery section-pad" aria-labelledby="galleryTitle"><div class="shell"><div class="eyebrow-row"><span>04 / EL PORTFOLIO</span><span>TOCA · ARRASTRA · DESCUBRE</span></div><div class="gallery-heading reveal"><h2 id="galleryTitle">INK IN<br><em>FOCUS.</em></h2><p>Explora las piezas como portadas de un álbum. Haz clic para ampliarlas y girarlas.</p></div>
+      <div class="coverflow" id="coverflow" aria-roledescription="carrusel" aria-label="Galería interactiva de tatuajes"><button class="gallery-arrow" id="galleryPrev" type="button" aria-label="Ver pieza anterior">←</button><div class="coverflow-stage" id="coverflowStage">
+          <!-- TODO-CARLOS-02: Cambia src o data-fallback por tus fotos propias -->
+          <button type="button" class="coverflow-card" data-title="Botánica" data-author="Fine line / 001"><img src="https://images.pexels.com/photos/9356536/pexels-photo-9356536.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=960" data-fallback="assets/img/gallery/tattoo-01.svg" alt="Diseño floral de referencia" loading="lazy"><span>FINE LINE / 001</span></button>
+          <button type="button" class="coverflow-card" data-title="Contrastes" data-author="Blackwork / 002"><img src="https://images.pexels.com/photos/8187555/pexels-photo-8187555.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=960" data-fallback="assets/img/gallery/tattoo-02.svg" alt="Tatuajes en blanco y negro de referencia" loading="lazy"><span>BLACKWORK / 002</span></button>
+          <button type="button" class="coverflow-card" data-title="Memoria" data-author="Realism / 003"><img src="https://images.pexels.com/photos/12932733/pexels-photo-12932733.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=960" data-fallback="assets/img/gallery/tattoo-03.svg" alt="Tatuaje realista en brazo de referencia" loading="lazy"><span>REALISM / 003</span></button>
+          <button type="button" class="coverflow-card" data-title="Botánica II" data-author="Black ink / 004"><img src="https://images.pexels.com/photos/9079557/pexels-photo-9079557.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=960" data-fallback="assets/img/gallery/tattoo-04.svg" alt="Tatuaje minimalista de referencia" loading="lazy"><span>MINIMAL / 004</span></button>
+          <button type="button" class="coverflow-card" data-title="Geometría" data-author="Concept / 005"><img src="assets/img/gallery/tattoo-05.svg" alt="Ilustración geométrica de referencia" loading="lazy"><span>CONCEPT / 005</span></button>
+        </div><button class="gallery-arrow" id="galleryNext" type="button" aria-label="Ver pieza siguiente">→</button></div><div class="gallery-bottom"><p id="galleryCounter" role="status" aria-live="polite">03 / 05</p><div class="gallery-dots" id="galleryDots" aria-label="Seleccionar pieza"></div><p>IMÁGENES DE REFERENCIA · NO SON TRABAJOS DEL ESTUDIO</p></div>
+      </div></section>
+
+    <!-- [07-FORMULARIO] HTML semántico + validación JS visible -->
+    <section id="contacto" class="contact section-pad" aria-labelledby="contactTitle"><div class="shell"><div class="eyebrow-row"><span>05 / TU PRÓXIMA HISTORIA</span><span>START WITH AN IDEA</span></div><div class="contact-layout"><div class="contact-copy reveal"><h2 id="contactTitle">LET'S MAKE<br><em>IT STAY.</em></h2><p>¿Tienes una idea? Puedes dibujarla tú, adjuntar tus referencias o describirla. Todo aparece en el ticket de tu idea, a la izquierda.</p><div class="contact-seal" aria-hidden="true">YOUR IDEA<br>IS THE ART ↗</div>
+          <div class="idea-ticket" aria-live="polite">
+            <span class="idea-ticket__eyebrow">TU CONCEPTO / EN DIRECTO</span>
+            <div class="idea-ticket__mark" aria-hidden="true">✳</div>
+            <!-- [V11-CARLOS-TICKET] Vista real del boceto o del motivo, conectada al formulario -->
+            <div id="ticketArtwork" class="ticket-artwork" aria-label="Vista previa del boceto">
+              <canvas id="ticketSketchPreview" width="480" height="270" aria-label="Boceto dibujado en el editor"></canvas>
+              <img id="ticketPresetPreview" src="assets/img/atelier/botanical-ink.svg" alt="Vista previa del diseño elegido" hidden>
+              <p id="ticketEmpty" class="ticket-empty">TU PRÓXIMO DISEÑO<br><small>DIBUJA EN EL ATELIER ↑</small></p>
+            </div>
+            <div id="ticketPhotoGrid" class="ticket-photo-grid" aria-label="Fotografías de referencia elegidas"></div>
+            <strong id="ideaTicketTitle">TU PRÓXIMA HISTORIA</strong>
+            <p id="ideaTicketStyle">Aún sin definir · Eso también está bien.</p>
+            <small id="ideaTicketCount">00 caracteres · 0 referencias</small><small id="ticketDesignStatus">Boceto pendiente</small>
+          </div></div>
+      <form class="contact-form reveal" id="ideaForm" novalidate><div class="form-heading"><p class="overline">COMIENZA AQUÍ</p><h3>Create your mark<span class="accent-dot">.</span></h3><p>Campos con * obligatorios. Tu boceto y tus imágenes se previsualizan en el ticket. Esta demo no envía datos.</p></div>
+        <div class="two-cols"><div class="field"><label for="name">Tu nombre <span>*</span></label><input type="text" id="name" name="name" autocomplete="name" placeholder="¿Cómo te llamas?" required aria-describedby="nameError"><p id="nameError" class="field-error" aria-live="polite"></p></div><div class="field"><label for="email">Tu correo <span>*</span></label><input type="email" id="email" name="email" autocomplete="email" placeholder="nombre@ejemplo.com" required aria-describedby="emailError"><p id="emailError" class="field-error" aria-live="polite"></p></div></div>
+        <div class="field"><div class="field-label"><label for="message">Tu idea <span>*</span></label><span id="charCounter">000 / 600</span></div><textarea id="message" name="message" maxlength="600" rows="5" required placeholder="¿Qué quieres tatuarte? ¿Qué significa para ti?" aria-describedby="messageError"></textarea><p id="messageError" class="field-error" aria-live="polite"></p></div>
+        <div class="form-choice"><div class="field"><label for="tattooStyle">Estilo <small>(opcional)</small></label><select name="tattooStyle" id="tattooStyle"><option value="">Todavía no lo sé</option><option>Fine line</option><option>Blackwork</option><option>Realism</option><option>Minimal</option></select></div><div class="field"><label for="placement">Zona del cuerpo <small>(opcional)</small></label><input type="text" id="placement" name="placement" placeholder="Por ejemplo, antebrazo"></div></div>
+        <div class="field"><span class="upload-label">Añade referencias <small>(opcional)</small></span><label class="upload-zone" id="uploadZone" for="references"><span class="upload-mark" aria-hidden="true">＋</span><strong>Arrastra tus imágenes aquí</strong><span>o pulsa para buscar archivos · JPG, PNG o WEBP · máx. 5 (6 MB cada una)</span><input id="references" name="references" type="file" accept="image/jpeg,image/png,image/webp" multiple aria-describedby="referencesError"></label><p id="referencesError" class="field-error" aria-live="polite"></p><div class="upload-previews" id="previewGrid" aria-live="polite"></div></div>
+        <div class="form-actions"><button class="submit-btn" type="submit">Preparar mi idea <span aria-hidden="true">↗</span></button><button id="clearForm" class="clear-btn" type="button">Limpiar</button></div><p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+      </form></div></div></section>
+  <!-- [09-CLOSING] Último impacto, sin saturar de contenido -->
+  <section class="closing-scene" aria-labelledby="closingTitle">
+    <div class="closing-orbit" aria-hidden="true"></div>
+    <p class="overline">THIS IS YOUR SKIN. THIS IS YOUR STORY.</p>
+    <h2 id="closingTitle">LEAVE<br><em>A MARK.</em></h2><p class="closing-subline">No para seguir una tendencia. Para recordar quién eres.</p>
+    <a href="#contacto" class="closing-cta">TU IDEA EMPIEZA AQUÍ <span aria-hidden="true">↗</span></a>
+  </section>
+  </main>
+  <!-- [10-FOOTER] TODO-CARLOS-03: Cambia la frase final -->
+  <footer class="site-footer"><div class="shell footer-layout"><a href="#hero" class="footer-wordmark" aria-label="Volver al inicio">CARLOS TATTO<span>®</span></a><div class="footer-meta"><p class="footer-hook">No es tinta. Es algo que se queda contigo.</p><p>Proyecto académico de Aplicaciones Web · Estudio conceptual, no negocio real.</p><p class="photo-credit">Fotografías de referencia: <a href="https://www.pexels.com/" target="_blank" rel="noopener noreferrer">Pexels</a>. Sustituye las imágenes por propias antes de publicarlo como portfolio.</p></div><a class="back-top" href="#hero">VOLVER ARRIBA ↑</a></div></footer>
+  <!-- [09-DIALOG] Galería ampliada; mantiene foco y accesibilidad -->
+  <dialog id="galleryDialog" class="gallery-dialog" aria-labelledby="dialogTitle"><button type="button" id="dialogClose" class="dialog-close" aria-label="Cerrar galería">×</button><div class="dialog-inner" id="dialogStage"><figure class="dialog-figure" id="dialogFigure"><img id="dialogImage" alt=""><figcaption id="dialogTitle">Tatuaje</figcaption></figure></div><p class="dialog-hint">Mueve el ratón o arrastra para inclinar la foto. Pulsa ESC para cerrar.</p></dialog>
+</body>
+</html>
